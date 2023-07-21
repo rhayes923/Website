@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Raleway");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: black;
+  background-image: url(./bg.gif);
+  background-size: cover;
+  min-width: 600px;
+  min-height: 600px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
