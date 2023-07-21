@@ -1,12 +1,12 @@
 import { Box, Grid, Typography } from "@mui/material/";
 import { LinkedIn, GitHub } from "@mui/icons-material/";
 import Fade from "react-reveal/Fade";
-import "./page.css";
+import "./assets/App.css";
 
 const gitHubUrl = "https://www.github.com/rhayes923";
 const linkedInUrl = "https://www.linkedin.com/in/rhayes923/";
 
-export default function Home() {
+export default function App() {
   return (
     <Box className="Box">
       <Grid
