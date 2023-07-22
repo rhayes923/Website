@@ -15,18 +15,23 @@ export default function Home() {
         direction="column"
         alignItems="center"
         justifyContent="center"
-        sx={{ minHeight: "80vh" }}
       >
         <Fade bottom cascade>
-          <Typography sx={{ fontSize: "5rem", fontFamily: "Caveat" }}>
-            Ryan Hayes
-          </Typography>
-          <Typography sx={{ fontSize: "3rem", fontFamily: "Caveat" }}>
-            Associate Full Stack Engineer
-          </Typography>
-          <Typography sx={{ fontSize: "3rem", fontFamily: "Caveat" }}>
-            Lockheed Martin
-          </Typography>
+          <Grid item>
+            <Typography sx={{ fontSize: "5rem", fontFamily: "Caveat" }}>
+              Ryan Hayes
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography sx={{ fontSize: "2rem", fontFamily: "Caveat" }}>
+              Associate Full Stack Engineer
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography sx={{ fontSize: "2rem", fontFamily: "Caveat" }}>
+              Lockheed Martin
+            </Typography>
+          </Grid>
           <Grid container spacing={5} sx={{ marginTop: "5px" }}>
             <Grid item>
               <LinkedIn
