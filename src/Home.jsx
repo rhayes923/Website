@@ -1,6 +1,6 @@
 import { Box, Grid, Typography } from "@mui/material/";
 import { LinkedIn, GitHub } from "@mui/icons-material/";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import "./assets/Home.css";
 
 const gitHubUrl = "https://www.github.com/rhayes923";
@@ -9,14 +9,8 @@ const linkedInUrl = "https://www.linkedin.com/in/rhayes923/";
 export default function Home() {
   return (
     <Box className="Box">
-      <Grid
-        container
-        spacing={1}
-        direction="column"
-        alignItems="center"
-        justifyContent="center"
-      >
-        <Fade bottom cascade>
+      <Grid container spacing={1} direction="column" alignItems="center">
+        <Fade cascade direction="up">
           <Grid item>
             <Typography sx={{ fontSize: "5rem", fontFamily: "Caveat" }}>
               Ryan Hayes
