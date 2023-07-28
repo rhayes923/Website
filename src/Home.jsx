@@ -29,7 +29,7 @@ export default function Home() {
           <Grid container spacing={5} sx={{ marginTop: "5px" }}>
             <Grid item>
               <LinkedIn
-                sx={{ fontSize: 50, color: "#0077B5", cursor: "pointer" }}
+                sx={{ fontSize: 50, cursor: "pointer" }}
                 onClick={() => window.open(linkedInUrl)}
               />
             </Grid>
