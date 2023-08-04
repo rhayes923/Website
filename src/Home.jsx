@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material/";
 import { LinkedIn, GitHub } from "@mui/icons-material/";
 import { Fade } from "react-awesome-reveal";
-import "./assets/Home.css";
+import "./styles/Home.css";
 
 const gitHubUrl = "https://www.github.com/rhayes923";
 const linkedInUrl = "https://www.linkedin.com/in/rhayes923/";
@@ -11,31 +11,33 @@ export default function Home() {
     <Box className="Box">
       <Grid container spacing={1} direction="column" alignItems="center">
         <Fade cascade direction="up">
-          <Grid item>
-            <Typography sx={{ fontSize: "5rem", fontFamily: "Caveat" }}>
+          <Grid item pb={2}>
+            <Typography variant="h1">
               Ryan Hayes
             </Typography>
           </Grid>
-          <Grid item>
-            <Typography sx={{ fontSize: "2rem", fontFamily: "Caveat" }}>
+          <Grid item pb={2}>
+            <Typography variant="h2">
               Associate Full Stack Engineer
             </Typography>
           </Grid>
-          <Grid item>
-            <Typography sx={{ fontSize: "2rem", fontFamily: "Caveat" }}>
+          <Grid item pb={2}>
+            <Typography variant="h2">
               Lockheed Martin
             </Typography>
           </Grid>
-          <Grid container spacing={5} sx={{ marginTop: "5px" }}>
+          <Grid container spacing={5} mt={1} fontSize="50px">
             <Grid item>
               <LinkedIn
-                sx={{ fontSize: 50, cursor: "pointer" }}
+                fontSize="inherit"
+                cursor="pointer"
                 onClick={() => window.open(linkedInUrl)}
               />
             </Grid>
             <Grid item>
               <GitHub
-                sx={{ fontSize: 50, cursor: "pointer" }}
+                fontSize="inherit"
+                cursor="pointer"
                 onClick={() => window.open(gitHubUrl)}
               />
             </Grid>
