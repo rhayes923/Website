@@ -18,7 +18,7 @@ export default function Home() {
           </Grid>
           <Grid item pb={2}>
             <Typography variant="h2">
-              Associate Full Stack Engineer
+              Full Stack Engineer
             </Typography>
           </Grid>
           <Grid item pb={2}>
