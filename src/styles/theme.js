@@ -4,10 +4,10 @@ const theme = createTheme({
     typography: {
         fontFamily: "Caveat",
         h1: {
-            fontSize: "5rem"
+            fontSize: "var(--font-size-large)"
         },
         h2: {
-            fontSize: "2rem"
+            fontSize: "var(--font-size-small)"
         }
     }
 })
