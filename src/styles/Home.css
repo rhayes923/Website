@@ -8,3 +8,10 @@
   justify-content: center;
   direction: column;
 }
+
+.text {
+  transform: translate(-50%, -50%) translateX(var(--translateX)) translateY(var(--translateY));
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
