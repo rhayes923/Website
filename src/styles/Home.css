@@ -6,12 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  direction: column;
+  flex-direction: column;
 }
 
 .text {
-  transform: translate(-50%, -50%) translateX(var(--translateX)) translateY(var(--translateY));
-  position: absolute;
-  left: 50%;
-  top: 50%;
+  will-change: transform;
+  transform: translate(0, 0);
+  transition: transform 0.1s ease-out;
 }

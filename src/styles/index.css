@@ -1,23 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat");
 
-:root {
-  --font-size-small: 2rem;
-  --font-size-large: 5rem;
-}
-
-body {
+html, body {
+  height: 100%;
   margin: 0;
+  background-color: black;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../assets/bg2.gif) no-repeat center center fixed;
+  background-size: cover;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: black;
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(../assets/bg2.gif);
-  background-size: cover;
-  background-attachment: fixed;
   overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }

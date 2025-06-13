@@ -7,9 +7,7 @@ import App from "./App.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.Fragment>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
-  </React.Fragment>
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>
 );
