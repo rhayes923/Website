@@ -53,18 +53,24 @@ export default function Home() {
             </Grid>
             <Grid container spacing={5} mt={1} fontSize="50px">
               <Grid item>
-                <LinkedIn
-                  fontSize="inherit"
-                  onClick={() => window.open(linkedInUrl)}
-                  sx={{ cursor: "pointer" }}
-                />
+                <a
+                  href={linkedInUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", cursor: "pointer", display: "inline-block" }}
+                >
+                  <LinkedIn fontSize="inherit" />
+                </a>
               </Grid>
               <Grid item>
-                <GitHub
-                  fontSize="inherit"
-                  onClick={() => window.open(gitHubUrl)}
-                  sx={{ cursor: "pointer" }}
-                />
+                <a
+                  href={gitHubUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", cursor: "pointer", display: "inline-block" }}
+                >
+                  <GitHub fontSize="inherit" />
+                </a>
               </Grid>
             </Grid>
           </Fade>
