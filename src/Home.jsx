@@ -48,9 +48,6 @@ export default function Home() {
             <Grid item pb={2}>
               <Typography variant="h2">Full Stack Engineer</Typography>
             </Grid>
-            <Grid item pb={2}>
-              <Typography variant="h2">Lockheed Martin</Typography>
-            </Grid>
             <Grid container spacing={5} mt={1} fontSize="50px">
               <Grid item>
                 <a
