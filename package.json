@@ -12,7 +12,7 @@
     "react-awesome-reveal": "^4.3.1",
     "react-dom": "^19.1.0",
     "react-router": "^8.3.0",
-    "react-router-dom": "^7.16.0"
+    "react-router-dom": "^7.18.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
